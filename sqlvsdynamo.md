@@ -4,12 +4,12 @@ MS SQL is a relational database management system developed by Microsoft in 1989
 # Amazon DynamoDB :
 Amazon DynamoDB is a document database that has high scalability. It was given by Amazon in 2012. It has a Primary database model as document store and key value store. It has a commercial license. It uses transactions and follows ACID properties. It has backup facilities and has high security. Amazon DynamoDB is a durable and robust database. It can handle enormous number of requests in a day and is fully managed.
 
-#	MS SQL                                                      	Amazon DynamoDB
-1.	MS SQL is a relational database model.	                        Amazon DynamoDB is a scalable database which has data stored on Amazon cloud.
-2.	The primary database model is a relational DBMS.	            Primary database model is document store and key value store in Amazon DynamoDB
-3.	It has Immediate Consistency.	                                It has eventual and immediate Consistency.
-4.	It was developed by Microsoft in 1989.                      	It was developed by Amazon in 2012.
-5.	It supports operating systems like Windows and LINUX.       	It supports hosted operating systems.
-6.	It supports SQL.	                                            It doesn’t support SQL.
-7.	It is implemented in C++.                                    	It does not have C++ as its implementation language.
-8.	It is not based on cloud.                                   	It is based on cloud.
+#	MS SQL                                         VS             	Amazon DynamoDB
+1.	MS SQL is a relational database model.	                      Amazon DynamoDB is a scalable database which has data stored on Amazon cloud.
+2.	MS SQL primary database model is a relational DBMS.	          Amazon DynamoDB Primary database model is document store and key value store in Amazon DynamoDB
+3.	MS SQL has Immediate Consistency.	                            Amazon DynamoDB has eventual and immediate Consistency.
+4.	MS SQL was developed by Microsoft in 1989.                    Amazon DynamoDB was developed by Amazon in 2012.
+5.	MS SQL supports operating systems like Windows and LINUX.     Amazon DynamoDB supports hosted operating systems.
+6.	MS SQL supports SQL.	                                        Amazon DynamoDB doesn’t support SQL.
+7.	MS SQL is implemented in C++.                                 Amazon DynamoDB does not have C++ as its implementation language.
+8.	MS SQL is not based on cloud.                                 Amazon DynamoDB is based on cloud.
