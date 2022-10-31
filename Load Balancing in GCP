@@ -1,0 +1,36 @@
+<p align="center">Load Balancing in GCP</p>
+
+#HTTP(S) load balancing:
+    HTTP(S) load balancing can balance HTTP and HTTPS traffic across multiple backend instances, across multiple regions.App is available via a single global IP address, resulting in a simplified DNS setup. HTTP(S) load balancing is scalable, fault-tolerant, requires no pre-warming, and is content-based. For HTTPS traffic, it provides SSL termination and load balancing.
+
+#Cloud Logging:
+    Cloud Logging for load balancing logs all the load balancing requests sent to your load balancer. These logs can be used for debugging as well as analyzing your user traffic.
+
+#TCP/SSL load balancing:
+    TCP load balancing can spread TCP traffic over a pool of instances within a Compute Engine region. It is scalable, does not require pre-warming, and health checks help ensure only healthy instances receive traffic. SSL proxy provides SSL termination for your non-HTTPS traffic with load balancing.
+
+#Seamless autoscaling:
+    Autoscaling helps your applications gracefully handle increases in traffic and reduces cost when the need for resources is lower.
+
+#High fidelity health checks:
+    Health checks ensure that new connections are only load balanced to healthy backends that are up and ready to receive them. High fidelity health checks ensure that the probes mimic actual traffic to backends.
+
+![Screenshot (364)](https://user-images.githubusercontent.com/76655825/199067508-ec644097-683e-40a3-8eb3-0dd24d2414db.png)
+
+
+#We can create a load balancer by following steps:
+1. In the Cloud Console, navigate to Navigation menu > Network Services > Load balancing, and then click Create load balancer.
+
+2. Under TCP Load Balancing, click on Start configuration.
+
+3. For Internet facing or internal only, select Only between my VMs (Choosing Only between my VMs makes this Load Balancer internal).
+
+4. Select Name, Region, Network.
+
+5. Add backend.
+
+6. For Health Check, select Create a health check.
+
+7. Verify that there is a blue check mark next to Backend configuration in the Cloud Console.
+
+8. Configure the Frontend and specify the Port Numer.
